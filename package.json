@@ -7,6 +7,13 @@
   "bin": {
     "yyg": "./bin/yyg.js"
   },
+  "keywords": [
+    "vue3",
+    "vite",
+    "TypeScript",
+    "tsx",
+    "pinia"
+  ],
   "scripts": {
     "yyg": "yyg",
     "yyg:create": "yyg create demo"
@@ -29,5 +36,8 @@
     "log-symbols": "4",
     "ora": "5",
     "shelljs": "^0.8.5"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
