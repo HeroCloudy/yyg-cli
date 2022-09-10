@@ -1,6 +1,6 @@
 {
   "name": "yyg-cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
   "description": "快速创建 vite + vue3 + TypeScript + tsx + vue router + pinia 项目",
   "main": "./bin/yyg.js",
@@ -13,6 +13,11 @@
     "TypeScript",
     "tsx",
     "pinia"
+  ],
+  "files": [
+    "bin",
+    "command",
+    "utils"
   ],
   "scripts": {
     "yyg": "yyg",
