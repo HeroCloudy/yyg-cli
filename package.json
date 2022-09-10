@@ -1,0 +1,33 @@
+{
+  "name": "yyg-cli",
+  "version": "0.1.1",
+  "private": false,
+  "description": "快速创建 vite + vue3 + TypeScript + tsx + vue router + pinia 项目",
+  "main": "./bin/yyg.js",
+  "bin": {
+    "yyg": "./bin/yyg.js"
+  },
+  "scripts": {
+    "yyg": "yyg",
+    "yyg:create": "yyg create demo"
+  },
+  "author": "程序员优雅哥",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0"
+  },
+  "dependencies": {
+    "chalk": "4",
+    "commander": "^9.4.0",
+    "download-git-repo": "^3.0.2",
+    "handlebars": "^4.7.7",
+    "inquirer": "8",
+    "log-symbols": "4",
+    "ora": "5",
+    "shelljs": "^0.8.5"
+  }
+}
