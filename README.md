@@ -1,6 +1,13 @@
 # yyg-cli
 
+![Size](https://img.shields.io/bundlephobia/min/yyg-cli?style=flat-square)
+![License](https://img.shields.io/npm/l/yyg-cli?style=flat-square)
+![Version](https://img.shields.io/npm/v/yyg-cli?style=flat-square)
+![Downloads](https://img.shields.io/npm/dt/yyg-cli?style=flat-square)
+![Month Downloads](https://img.shields.io/npm/dm/yyg-cli?style=flat-square)
+
 yyg-cli 用于快速生成基于 vite + vue3 全家桶的脚手架项目。默认集成如下框架：
+
 
 - vite 2
 - vue 3

@@ -1,11 +1,23 @@
 {
   "name": "yyg-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "快速创建 vite + vue3 + TypeScript + tsx + vue router + pinia 项目",
   "main": "./bin/yyg.js",
   "bin": {
     "yyg": "./bin/yyg.js"
+  },
+  "author": {
+    "name": "程序员优雅哥",
+    "email": "hero_cloudy@126.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HeroCloudy/yyg-cli"
+  },
+  "bugs": {
+    "url": "https://github.com/HeroCloudy/yyg-cli/issues",
+    "email": "hero_cloudy@126.com"
   },
   "keywords": [
     "vue3",
@@ -23,7 +35,6 @@
     "yyg": "yyg",
     "yyg:create": "yyg create demo"
   },
-  "author": "程序员优雅哥",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^8.0.1",
