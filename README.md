@@ -22,6 +22,8 @@ yyg-cli 用于快速生成基于 vite + vue3 全家桶的脚手架项目。默�
 ### Global Installation 全局安装
 
 ```shell
+yarn global add yyg-cli
+或
 npm install yyg-cli -g
 ```
 

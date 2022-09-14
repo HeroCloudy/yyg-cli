@@ -68,7 +68,7 @@ const promptInstall = (projectName) => {
         name: 'installType',
         message: 'Choose the install type: ',
         choices: [
-          'npm', 'cnpm', 'yarn'
+          'pnpm', 'npm', 'cnpm', 'yarn'
         ]
       }
     ]).then(({ installType }) => {
