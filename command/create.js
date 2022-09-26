@@ -8,7 +8,7 @@ const download = require('download-git-repo')
 const writeFile = require('../utils/file-utils')
 
 // const git = 'HeroCloudy/vue3-vite-archetype#template'
-const git = 'git@gitee.com:yygnb/vue3-vite-archetype.git'
+const git = 'https://gitee.com/yygnb/vue3-vite-archetype.git'
 
 const createQuestions = [
   {
