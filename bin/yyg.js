@@ -2,7 +2,7 @@
 
 const { program } = require('commander')
 const logs = require('../utils/log-utils')
-const createProject = require('../command/create')
+const create = require('../command/create')
 
 logs.g('Thanks for using yyg cli !')
 
@@ -13,7 +13,7 @@ program.command('create <projectName>')
   .description('create a new vite + vue3 project from yyg\'s template')
   .alias('c')
   .action((projectName) => {
-    createProject(projectName)
+    create(projectName)
   })
 
 program.parse(process.argv)

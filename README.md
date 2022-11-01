@@ -6,8 +6,9 @@
 ![Downloads](https://img.shields.io/npm/dt/yyg-cli?style=flat-square)
 ![Month Downloads](https://img.shields.io/npm/dm/yyg-cli?style=flat-square)
 
-yyg-cli 用于快速生成基于 vite + vue3 全家桶的脚手架项目。默认集成如下框架：
+yyg-cli 用于快速生成基于 vite + vue3 项目，支持项目全家桶和组件库脚手架。
 
+vue3 全家桶项目默认集成如下框架：
 
 - vite 2
 - vue 3
@@ -16,6 +17,14 @@ yyg-cli 用于快速生成基于 vite + vue3 全家桶的脚手架项目。默�
 - vue router
 - pinia
 - element plus
+
+vue3 组件项目默认集成如下框架：
+
+- vite 2
+- vue 3
+- typescript
+- tsx
+- vitepress
 
 ## USAGE 用法
 
@@ -36,6 +45,8 @@ yyg create <项目名>
 ```shell
 yyg create demo
 ```
+
+执行命令后会提示选择创建 vue3全家桶项目 或 vue3 组件库脚手架项目。
 
 ---
 Thanks for using yyg-cli. Development by 程序员优雅哥.
