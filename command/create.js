@@ -13,12 +13,12 @@ const createQuestions = [
     choices: [
       {
         key: TYPE_PROJECT,
-        name: 'Vue3 全家桶项目（vite3 + vue3 + typescript + vue router + pinia）',
+        name: 'Vue3 全家桶项目（vite4 + vue3 + typescript + vue router + pinia）',
         value: TYPE_PROJECT
       },
       {
         key: 'library', // key 必须是单个小写的字符
-        name: 'Vue3 组件库项目（vite3 + vue3 + typescript + cli + vitepress）',
+        name: 'Vue3 组件库项目（vite4 + vue3 + typescript + cli + vitepress）',
         value: TYPE_LIBRARY
       }
     ]
@@ -31,7 +31,7 @@ const create = (projectName) => {
     return
   }
   inquirer.prompt(createQuestions).then(({ projectType }) => {
-    console.log(projectType)
+    // console.log(projectType)
     if (projectType === TYPE_PROJECT) {
       const createProject = require('./create-project')
       createProject(projectName)
