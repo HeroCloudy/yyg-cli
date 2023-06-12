@@ -10,27 +10,34 @@ yyg-cli 用于快速生成基于 vite + vue3 项目，支持项目全家桶和�
 
 vue3 全家桶项目默认集成如下框架：
 
-- vite 2
+- vite 4
 - vue 3
 - typescript
 - tsx
 - vue router
 - pinia
 - element plus
+- SASS / SCSS
+- UnoCSS
+- ESLint Standard
 
 vue3 组件项目默认集成如下框架：
 
-- vite 2
+- vite 4
 - vue 3
 - typescript
 - tsx
 - vitepress
+- SASS / SCSS
+- ESLint Standard
 
 ## USAGE 用法
 
 ### Global Installation 全局安装
 
 ```shell
+pnpm add yyg-cli -g
+或
 yarn global add yyg-cli
 或
 npm install yyg-cli -g
